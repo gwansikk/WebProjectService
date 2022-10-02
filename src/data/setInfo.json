@@ -1,0 +1,49 @@
+{
+  "description": "화면 정보 구성",
+  "mainInfo": [
+    {
+      "title": "공지",
+      "list": ["스터디공부에 스트레스 받지 말고 쉬고 싶을 때 미리 말하기!", "모든 코드 시간복잡도(Big-O) 계산해서 #1 라인에 표시하기"]
+    },
+    {
+      "title": "일정",
+      "list": [
+        "21.11.21 : 코테를 위한 알고리즘, 개설 및 시작",
+        "22.02.20 : 코테용 언어 배우기 (Python, Java, C++)",
+        "22.03.20 : 교내 프로그램 '거북이' 연계 활동",
+        "22.04.17 : 22년 중간고사로 인한 활동 정지",
+        "22.05.01 : 시즌2 시작",
+        "22.07.25 : 시즌2 활동 정지"
+      ]
+    }
+  ],
+
+  "shareInfo": [
+    {
+      "title": "정보",
+      "list": [
+        {
+          "name": "왜 웹3.0이 중요하고 알아둬야 할까",
+          "href": "https://steemit.com/kr/@sanghkaang/3-0-why-the-web-3-0-matters-and-you-should-know-about-it"
+        }
+      ]
+    },
+    {
+      "title": "공유",
+      "list": [
+        {
+          "name": "취업을 위한 코딩테스트 공부방법",
+          "href": "https://covenant.tistory.com/220"
+        },
+        {
+          "name": "개발자가 갖추어야 할 9가지 기술",
+          "href": "https://m.blog.naver.com/dpszeagal33/222355970844"
+        },
+        {
+          "name": "시간복잡도와 공간복잡도",
+          "href": "https://madplay.github.io/post/time-complexity-space-complexity"
+        }
+      ]
+    }
+  ]
+}

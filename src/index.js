@@ -1,17 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import "./index.css";
 
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
 import Main from "./pages/Main";
+import Class from "./pages/Class";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <Nav />
-    <Main />
+    <Routes>
+      <Route path="/" element={<Main />} />
+      <Route path="/class/:id" element={<Class />} />
+    </Routes>
     <Footer />
-  </React.StrictMode>
+  </BrowserRouter>
 );
