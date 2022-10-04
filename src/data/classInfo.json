@@ -1,9 +1,132 @@
 {
   "description": "클래스 별 컨텐츠",
-  "list": [
+  "해시": [
     {
-      "title": "파일 정리",
-      "href": "https://www.acmicpc.net/problem/20291"
+      "id": "https://www.acmicpc.net/problem/1764",
+      "title": "듣보잡"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/20291",
+      "title": "파일 정리"
     }
-  ]
+  ],
+  "스택&큐": [
+    {
+      "id": "https://www.acmicpc.net/problem/1021",
+      "title": "회전하는 큐"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/10828",
+      "title": "스택"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/11729",
+      "title": "하노이탑 이동 순서"
+    }
+  ],
+  "힙": [],
+  "정렬": [
+    {
+      "id": "https://www.acmicpc.net/problem/1174",
+      "title": "줄어드는 수"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/3221",
+      "title": "개미의 이동"
+    }
+  ],
+  "완전탐색": [
+    {
+      "id": "https://www.acmicpc.net/problem/1059",
+      "title": "좋은 구간"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/2798",
+      "title": "블랙잭"
+    }
+  ],
+  "탐욕법": [
+    {
+      "id": "https://static.gwansik.dev/image/Greedy3.png",
+      "title": "1이 될 때까지"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/13164",
+      "title": "행복 유치원"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/2839",
+      "title": "설탕 배달"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/11047",
+      "title": "동전 0"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/4796",
+      "title": "캠핑"
+    }
+  ],
+  "동적계획법": [
+    {
+      "id": "https://www.acmicpc.net/problem/9251",
+      "title": "LCS"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/1003",
+      "title": "피보나치 함수"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/2293",
+      "title": "동전1"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/12865",
+      "title": "평범한 배낭"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/15989",
+      "title": "1 2, 3 더하기 4"
+    }
+  ],
+  "DFS&BFS": [
+    {
+      "id": "https://www.acmicpc.net/problem/2667",
+      "title": "단지번호붙이기"
+    }
+  ],
+  "이분탐색": [
+    {
+      "id": "https://www.acmicpc.net/problem/11561",
+      "title": "징검다리"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/3079",
+      "title": "입국심사"
+    }
+  ],
+  "그래프": [],
+  "코딩테스트": [
+    {
+      "id": "https://www.acmicpc.net/problem/9251",
+      "title": "LCS"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/1003",
+      "title": "피보나치 함수"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/2293",
+      "title": "동전1"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/12865",
+      "title": "평범한 배낭"
+    },
+    {
+      "id": "https://www.acmicpc.net/problem/15989",
+      "title": "1 2, 3 더하기 4"
+    }
+  ],
+  "실전문제": []
 }

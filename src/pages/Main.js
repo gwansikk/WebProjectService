@@ -1,12 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import setInfo from "../data/setInfo.json";
+import viewInfo from "../data/viewInfo.json";
 
 function Main(props) {
   var navigate = useNavigate();
-  const mainData = setInfo.mainInfo;
-  const sharedData = setInfo.shareInfo;
+  const data = viewInfo;
 
   const onClick = (e) => {
     navigate("/class/" + e.currentTarget.value);
@@ -22,7 +21,7 @@ function Main(props) {
       </div>
 
       <div className="row">
-        {mainData.map((value) => (
+        {data.mainInfo.map((value) => (
           <div className="cloud w-100%">
             <h1 className="title">{value.title}</h1>
             <ul>
@@ -35,7 +34,7 @@ function Main(props) {
       </div>
 
       <div className="row">
-        {sharedData.map((value) => (
+        {data.shareInfo.map((value) => (
           <div className="cloud w-100%">
             <h1 className="title">{value.title}</h1>
             <ul>

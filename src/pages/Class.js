@@ -6,7 +6,7 @@ import classInfo from "../data/classInfo.json";
 function Class(props) {
   var navigate = useNavigate();
   const { id } = useParams();
-  const data = classInfo.list;
+  const data = classInfo[id];
 
   const onClick = () => {
     navigate("/");
@@ -20,7 +20,7 @@ function Class(props) {
           <ul>
             {data.map((value) => (
               <li>
-                <a href={value.href}>{value.title}</a>
+                <a href={value.id}>{value.title}</a>
               </li>
             ))}
           </ul>
