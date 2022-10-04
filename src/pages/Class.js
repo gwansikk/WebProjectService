@@ -12,11 +12,19 @@ function Class(props) {
     navigate("/");
   };
 
+  const style = {
+    float: "right",
+  };
+
   return (
     <div className="container">
       <div className="row">
         <div className="cloud w-100%">
+          <button onClick={onClick} style={style}>
+            돌아가기
+          </button>
           <h1 className="title">{id}</h1>
+
           <ul>
             {data.map((value) => (
               <li>
@@ -24,7 +32,6 @@ function Class(props) {
               </li>
             ))}
           </ul>
-          <button onClick={onClick}>돌아가기</button>
         </div>
       </div>
     </div>
