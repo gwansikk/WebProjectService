@@ -4,16 +4,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "./index.css";
 
-import Nav from "./components/Nav";
 import Footer from "./components/Footer";
-
 import Main from "./pages/Main";
 import Class from "./pages/Class";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
-    <Nav />
     <Routes>
       <Route path="/" element={<Main />} />
       <Route path="/class/:id" element={<Class />} />
