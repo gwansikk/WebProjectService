@@ -30,7 +30,9 @@ function Main(props) {
             <ul>
               {value.list.map((list) => (
                 <li>
-                  <a href={list.href}>{list.name}</a>
+                  <a href={list.href} target="_blank" rel="noopener noreferrer">
+                    {list.name}
+                  </a>
                 </li>
               ))}
             </ul>
