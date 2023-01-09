@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import Title from "../components/Title";
 
 import classInfo from "../data/classInfo.json";
 
@@ -18,6 +19,7 @@ function Class(props) {
 
   return (
     <div className="container">
+      <Title />
       <div className="row">
         <div className="cloud w-100%">
           <button onClick={onClick} style={style}>

@@ -12,8 +12,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Main />} />
-      <Route path="/class/:id" element={<Class />} />
+      <Route path="" element={<Main />} />
+      <Route path="class/:id" element={<Class />} />
     </Routes>
     <Footer />
   </BrowserRouter>
