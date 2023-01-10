@@ -9,8 +9,10 @@ function ClassButton(props) {
     navigate("class/" + title);
   };
 
+  const size = { "min-width": "180px" };
+
   return (
-    <div className="cloud" style={{ "min-width": "180px" }} onClick={onClick}>
+    <div className="cloud" style={size} onClick={onClick}>
       <h1 className="normal">{title}</h1>
       <p className="sub">{children}</p>
     </div>
